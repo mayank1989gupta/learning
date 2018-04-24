@@ -10,10 +10,15 @@ package com.learning.samplers;
 public class RemoveRecurringDigits {
 
 	public static void main(String args[]) {
-		char[] number = "123445677899".toCharArray();
+		char[] number = "aaabccddeee".toCharArray();
 		System.out.println(removeRecurringDigits(number));
 	}
 
+	/**
+	 * Method to remove Recurring Digits.</br>
+	 * @param number
+	 * @return
+	 */
 	private static String removeRecurringDigits(char[] number) {
 		String result = null;
 		int j = 0;

@@ -5,6 +5,7 @@ package com.learning.samplers;
 
 /**
  * @author Mayank
+ * Solution to Lucky Floors problem - Codility.
  *
  */
 public class LuckyFloors {

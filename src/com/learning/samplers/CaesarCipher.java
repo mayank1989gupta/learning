@@ -9,6 +9,13 @@ package com.learning.samplers;
  */
 public class CaesarCipher {
 
+	/**
+	 * Method to update the given String with k as given update index in the alphabets.</br>
+	 * 
+	 * @param s
+	 * @param k
+	 * @return
+	 */
 	static String caesarCipher(String s, int k) {
        char[] characters = s.toCharArray();
        StringBuilder result = new StringBuilder();

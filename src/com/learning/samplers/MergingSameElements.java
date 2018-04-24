@@ -2,7 +2,7 @@ package com.learning.samplers;
 
 import java.util.Arrays;
 
-public class HackerRank2 {
+public class MergingSameElements {
 
 	public static void main(String args[]) {
 		int arr[] = {5,5,5,7,7,3,4,7}; 
@@ -31,11 +31,14 @@ public class HackerRank2 {
 			
 		}
 		
-		
+		//Converting to result arrays
 		result = Arrays.stream(result)
                 .filter(s -> (s != null && s.length() > 0))
                 .toArray(String[]::new);    
 		
-		System.out.println("Success");
+		for(String data : result) {
+			System.out.println(data);//Priting the result
+		}
+		
 	}
 }

@@ -28,12 +28,19 @@ public class BigSorting {
 			
 		});
 		
-		
+		//Printing the result
 		for(String data : arr) {
 			System.out.println(data);
 		}
 	}
 	
+	/**
+	 * Method to compare the String as integers and return the result.</br>
+	 * 
+	 * @param a1
+	 * @param a2
+	 * @return
+	 */
 	private static int stringToIntCompare(String a1, String a2) {
 		if(a1.length() < a2.length()) return -1;
 		if(a1.length() > a2.length()) return 1;

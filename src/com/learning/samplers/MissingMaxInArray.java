@@ -9,7 +9,7 @@ import java.util.Arrays;
  * @author Mayank
  *
  */
-public class Codility1 {
+public class MissingMaxInArray {
 
 	public static void main(String args[]) {
 		int arr[] = {1, 3, 4, 6, 9};
