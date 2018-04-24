@@ -33,20 +33,20 @@ public class ArrayManipulationHackerRank {
 		int temp = 0;
 		int max = 0;
 		for(int i = 0 ; i < queries.length; i++) {
-			startIndex = (queries[i][0]) - 1;
-			endIndex = (queries[i][1]) - 1;
-			temp = (queries[i][2]);
+			startIndex = (queries[i][0]) - 1;//Starting Index
+			endIndex = (queries[i][1]) - 1;//End Index
+			temp = (queries[i][2]);//value to be added
 			while(startIndex <= endIndex) {
-				arr[startIndex] += temp;
+				arr[startIndex] += temp;//adding to the existing value
 				if(arr[startIndex] > max) {
-					max = arr[startIndex];
+					max = arr[startIndex];//max
 				}
-				startIndex++;
+				startIndex++;//incrementing the index.
 			}
 		}
 
 
-		return max;
+		return max;//Result
 	}
 
 	/** Below code is the from the question.**/
