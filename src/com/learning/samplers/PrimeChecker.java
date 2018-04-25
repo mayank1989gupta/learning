@@ -60,7 +60,7 @@ class Prime{
 		int counter = 0;
 
 		for(int number : numbers) {
-			if(number == 0 || number == 1) {
+			if(number < 2) {
 				continue;
 			}
 
