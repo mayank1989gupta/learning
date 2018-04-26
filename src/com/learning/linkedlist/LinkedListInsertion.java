@@ -11,6 +11,11 @@ public class LinkedListInsertion {
 
 	Node head;
 
+	/**
+	 * Making the inner class as static so main can access it.</br>
+	 * 
+	 * @author Mayank
+	 */
 	static class Node {
 		int data;
 		Node next;
