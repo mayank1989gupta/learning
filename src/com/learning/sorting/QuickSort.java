@@ -3,8 +3,6 @@
  */
 package com.learning.sorting;
 
-import java.util.concurrent.Exchanger;
-
 /**
  * @author Mayank
  *
