@@ -5,20 +5,25 @@ package com.learning.sorting;
 
 /**
  * @author Mayank
- *
+ * Quick sort Eg.
  */
 public class QuickSort {
 
 	public static void main(String args[]) {
-		int[] data = {24,2,45,20,56,75,2,56,99,53,12};
+		int[] data = {24,2,45,20,56,75,2,56,99,53,12};//Sample Data
 		
-		sort(data);
+		sort(data);//Invoking the sort method.
 		
 		for(int val : data) {
-			System.out.println(val);
+			System.out.println(val);//Printing the sorted array
 		}
 	}
 
+	/**
+	 * Method to sort the given array.</br>
+	 * 
+	 * @param data
+	 */
 	private static void sort(int[] data) {
 		if(data == null || data.length == 0) {
 			return;
@@ -29,6 +34,13 @@ public class QuickSort {
 		
 	}
 
+	/**
+	 * Method to perform quick sort.</br>
+	 * 
+	 * @param data
+	 * @param lowerIndex
+	 * @param higherIndex
+	 */
 	private static void quickSort(int[] data, int lowerIndex, int higherIndex) {
 		int i = lowerIndex;
 		int j = higherIndex;

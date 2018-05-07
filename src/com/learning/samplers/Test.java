@@ -3,10 +3,6 @@
  */
 package com.learning.samplers;
 
-import java.util.Scanner;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
 /**
  * @author Mayank
  *
@@ -14,7 +10,7 @@ import java.util.regex.Pattern;
 public class Test {
 
 	public static void main(String[] args) {
-		String regex = "\\b([ \\w]+)\\1";
+		/*String regex = "\\b([ \\w]+)\\1";
 		Pattern p = Pattern.compile(regex);
 
 		String input = "Goodbye bye Bye world world world";
@@ -26,7 +22,26 @@ public class Test {
 			input = input.replaceAll(regex, "$1");
 		}
 
-		System.out.println(input);
+		System.out.println(input);*/
+
+
+		/*Set<Integer> result = new LinkedHashSet<>();
+
+		for(int i = 0; i <= 9 ; i++) {
+			if(i%2 != 0) {
+				result.add(i);
+			}
+		}
+		//int[] data = result.stream().toArray(Integer[]::new);
+		int[] data = result.toArray();
+
+		for(int val : data) {
+			System.out.println(val);
+		}*/
+
+		String abc = "Mayank";
+
+		System.out.println(String.format("%1$" + 15 + "s", abc));
 
 	}
 
@@ -45,7 +60,11 @@ public class Test {
 
 		}
 
-		System.out.println();
+		String abc = "Mayank";
+
+		System.out.println(String.format("%1$-" + 15 + "s", abc));
+
+
 	}
 
 	private static boolean isPrime(int number) {

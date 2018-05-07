@@ -1,4 +1,4 @@
-	/**
+/**
  * 
  */
 package com.learning.tree;
@@ -10,7 +10,11 @@ package com.learning.tree;
 public class BinaryTree {
 
 	Node root;
-
+	/**
+	 * Making the inner class as static so main can access it.</br>
+	 * @author Mayank
+	 *
+	 */
 	static class Node {
 		int data;
 		Node right;
