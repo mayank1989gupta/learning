@@ -39,9 +39,10 @@ public class Test {
 			System.out.println(val);
 		}*/
 
-		String abc = "Mayank";
+		//String abc = "Mayank";
 
-		System.out.println(String.format("%1$" + 15 + "s", abc));
+		//System.out.println(String.format("%1$" + 15 + "s", abc));
+		System.out.println('(' - ')');
 
 	}
 
