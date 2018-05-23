@@ -3,6 +3,13 @@
  */
 package com.learning.samplers;
 
+import java.math.BigDecimal;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
+
 /**
  * @author Mayank
  *
@@ -10,39 +17,39 @@ package com.learning.samplers;
 public class Test {
 
 	public static void main(String[] args) {
-		/*String regex = "\\b([ \\w]+)\\1";
-		Pattern p = Pattern.compile(regex);
-
-		String input = "Goodbye bye Bye world world world";
-		//String input = "Hello hello Ab aB";
-		Matcher m = p.matcher(input);
-
-		// Check for subsequences of input that match the compiled pattern
-		while (m.find()) {
-			input = input.replaceAll(regex, "$1");
-		}
-
-		System.out.println(input);*/
-
-
-		/*Set<Integer> result = new LinkedHashSet<>();
-
-		for(int i = 0; i <= 9 ; i++) {
-			if(i%2 != 0) {
-				result.add(i);
+		
+		List<BigDecimal> tester = new ArrayList<>();
+		tester.add(new BigDecimal("-100"));
+		tester.add(new BigDecimal("-1"));
+		tester.add(new BigDecimal("02.65"));
+		tester.add(new BigDecimal("90"));
+		tester.add(new BigDecimal(".12"));
+		
+		Collections.sort(tester);
+		
+		BigDecimal[] test = new BigDecimal[5];
+		test[0] = new BigDecimal("-100");
+		test[1] = new BigDecimal("-1");
+		test[2] = new BigDecimal("02.65");
+		test[3] = new BigDecimal("12");
+		test[4] = new BigDecimal(".12");
+		
+		Arrays.sort(null, new Comparator<String>() {
+		    @Override
+		    public int compare(String o1, String o2) {
+			if (o1 == null || o2 == null) {
+			    return 0;
 			}
+			BigDecimal o1bd = new BigDecimal(o1);
+			BigDecimal o2bd = new BigDecimal(o2);
+			return o2bd.compareTo(o1bd);
+		    }
+		});
+		
+		for(BigDecimal data : tester) {
+			System.out.println(data);
 		}
-		//int[] data = result.stream().toArray(Integer[]::new);
-		int[] data = result.toArray();
 
-		for(int val : data) {
-			System.out.println(val);
-		}*/
-
-		//String abc = "Mayank";
-
-		//System.out.println(String.format("%1$" + 15 + "s", abc));
-		System.out.println('(' - ')');
 
 	}
 

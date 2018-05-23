@@ -5,7 +5,6 @@ package com.learning.samplers;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Scanner;
 
 /**
  * @author Mayank
