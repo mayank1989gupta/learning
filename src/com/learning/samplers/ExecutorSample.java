@@ -51,7 +51,7 @@ public class ExecutorSample implements Callable<String> {
 			//System.out.println(fut.get());
 		}
 
-		executor.shutdown();
+		executor.shutdown();//shutdown executor
 
 	}
 
@@ -71,7 +71,7 @@ public class ExecutorSample implements Callable<String> {
 
 	@Override
 	protected void finalize() throws Throwable {
-		executor.shutdown();
+		executor.shutdown();//GC
 		super.finalize();
 	}
 
