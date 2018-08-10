@@ -41,6 +41,17 @@ public class HackerRankRecursiveDigitSum {// Complete the superDigit function be
 		scanner.close();
 	}
 
+	/**
+	 * Method which takes the n i.e. the number
+	 * &, k number of times the initial sum has to be added.
+	 * returns the super digit for the given number.
+	 * 
+	 * Makes recursive call for fetch the super digit.</br>
+	 * 
+	 * @param n
+	 * @param k
+	 * @return
+	 */
 	private static int superDigit(String n, int k) {
 		if(n.length() == 1) {
 			return Integer.valueOf(n);
