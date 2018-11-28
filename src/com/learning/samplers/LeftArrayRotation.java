@@ -19,18 +19,17 @@ public class LeftArrayRotation {
 		int d = 4;
 		
 		int mod = d % length;
-		System.out.println(mod);
+		//System.out.println(mod);
 
-		System.out.println(arrayLeftRotation(arr, length, d));
-		 /*for(int i = 0; i < length; ++i)
-		        System.out.print(arr[(i + mod) % length]
-		                          + " "); */
+		int ar[] = arrayLeftRotation(arr, length, d);
+		 
 	}
 	
 	public static int[] arrayLeftRotation(int[] a, int n, int k) {
 	      int mod = k % n;
 	      for(int i = 0 ; i < n ; ++i) {
-	          a[i] = a[(i+mod)%n];
+	          //a[i] = a[(i+mod)%n];
+	          System.out.println(a[(i+mod)%n]);;
 	      }
 	        
 	     return a;

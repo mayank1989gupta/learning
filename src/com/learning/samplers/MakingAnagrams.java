@@ -14,7 +14,7 @@ public class MakingAnagrams {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		String firstStr = "aace";
+		String firstStr = "aaceee";
 		String secondStr = "aaaace";
 		
 		System.out.println(numberNeeded(firstStr, secondStr));//Making anagrams
