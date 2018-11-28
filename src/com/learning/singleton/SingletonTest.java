@@ -40,6 +40,6 @@ public class SingletonTest {
 			}
 		}
 
-		return instance;//return
+		return instance;
 	}
 }
