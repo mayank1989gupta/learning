@@ -4,7 +4,8 @@ public class SumPair {
 
 	public static void main(String args[]) {
 		int[] arr = {5, 5, 4, 2, 1};
-		boolean[] binMap = new boolean[10000];//Integer of max could be taken.
+		//this is bad!
+		boolean[] binMap = new boolean[Integer.MAX_VALUE];//Integer of max could be taken.
 		int sum = 6;
 		int numberOfPairs = 0;
 		

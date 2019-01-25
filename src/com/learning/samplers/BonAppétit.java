@@ -9,7 +9,7 @@ import java.util.Scanner;
  * @author Mayank
  *
  */
-public class BonAppÃ©tit {
+public class BonAppétit {
 
 	public static void main(String args[]) {
 		Scanner in = new Scanner(System.in);

@@ -18,14 +18,12 @@ public class BigSorting {
 	public static void main(String[] args) {
 		String[] arr = {"1","4","5","6","12345678755"};
 
-		Arrays.sort(arr, new Comparator<String>() {
+		Arrays.parallelSort(arr, new Comparator<String>() {
 
 			@Override
-			public int compare(String a1, String a2) {
-				return stringToIntCompare(a1, a2);
+			public int compare(String o1, String o2) {
+				return stringToIntCompare(o1, o2);
 			}
-
-			
 		});
 		
 		//Printing the result
