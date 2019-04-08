@@ -42,9 +42,8 @@ public class ExecutorSample implements Callable<String> {
 
 		/**
 		 * For 1&2 second task it will return immediately. 
-		 * We will wait for the third task will get completed. 
-		 * Even 4th task completed , iteration is waiting in third task . 
-		 * Once third task completed or timed wait expire on that time only iteration will continue.
+		 * We will wait for the third until task will get completed. 
+		 * Even if 4th task completed, iteration will wait for the third task . 
 		 */
 		for(Future<String> fut : list) {
 			System.out.println("main()" + " **** " + Thread.currentThread().getName() + " **** " + fut.get());
