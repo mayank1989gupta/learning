@@ -9,7 +9,11 @@ package com.learning.singleton;
  */
 public class SingletonTest {
 
+<<<<<<< HEAD
 	private volatile static SingletonTest instance;
+=======
+	private static volatile SingletonTest instance;
+>>>>>>> 91be58cf61c1fce23d6f7705de624617a321ed0b
 
 	private SingletonTest() {
 
@@ -40,6 +44,6 @@ public class SingletonTest {
 			}
 		}
 
-		return instance;//return
+		return instance;
 	}
 }
