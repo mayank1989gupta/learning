@@ -17,13 +17,8 @@ public class BigSorting {
 	 */
 	public static void main(String[] args) {
 		String[] arr = {"1","4","5","6","12345678755"};
-<<<<<<< HEAD:src/com/hackerank/algorithms/BigSorting.java
-		Arrays.sort(arr, new Comparator<String>() {
-=======
 
 		Arrays.parallelSort(arr, new Comparator<String>() {
->>>>>>> 91be58cf61c1fce23d6f7705de624617a321ed0b:src/com/learning/samplers/BigSorting.java
-
 			@Override
 			public int compare(String o1, String o2) {
 				return stringToIntCompare(o1, o2);
