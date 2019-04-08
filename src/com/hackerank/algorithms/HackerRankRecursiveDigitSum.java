@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.learning.samplers;
+package com.hackerank.algorithms;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;

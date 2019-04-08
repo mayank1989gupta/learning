@@ -9,7 +9,7 @@ package com.learning.singleton;
  */
 public class SingletonTest {
 
-	private static SingletonTest instance;
+	private volatile static SingletonTest instance;
 
 	private SingletonTest() {
 

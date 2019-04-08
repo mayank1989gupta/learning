@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.learning.samplers;
+package com.hackerank.algorithms;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -18,7 +18,7 @@ public class TwoStringsHackerRank {
 	public static void main(String[] args) {
 
 		System.out.println(twoStrings("Hello", "World"));
-		System.out.println(twoStrings("a", "asdfghjklnzmznhs"));
+		System.out.println(twoStrings("b", "asdfghjklnzmznhs"));
 	}
 
 	private static String twoStrings(String s1, String s2) {

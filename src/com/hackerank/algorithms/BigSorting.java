@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.learning.samplers;
+package com.hackerank.algorithms;
 
 import java.util.Arrays;
 import java.util.Comparator;
@@ -17,7 +17,6 @@ public class BigSorting {
 	 */
 	public static void main(String[] args) {
 		String[] arr = {"1","4","5","6","12345678755"};
-
 		Arrays.sort(arr, new Comparator<String>() {
 
 			@Override

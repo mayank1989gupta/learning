@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.learning.samplers;
+package com.hackerank.algorithms;
 
 import java.util.Set;
 import java.util.TreeSet;

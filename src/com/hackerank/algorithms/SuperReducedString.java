@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.learning.samplers;
+package com.hackerank.algorithms;
 
 import java.util.Stack;
 
@@ -18,10 +18,10 @@ public class SuperReducedString {
 		for(int i = 0 ; i < s.length() ; i++) {
 			character = s.charAt(i);
 			if(!stack.isEmpty() && stack.peek() == character) {
-				stack.pop();
-			} else {
-				stack.push(character);
-			}
+				stack.pop();	
+			} 
+			
+			stack.push(character);
 		}
 		
 		if(stack.isEmpty()) {
@@ -42,7 +42,7 @@ public class SuperReducedString {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		String s = "aaabccddeee";
+		String s = "aaabbbbbccddeeefggghhijklmmmnnopqqrstuvvvwxyyzzzz";
 		String result = super_reduced_string(s);
 		System.out.println(result);
 		int charr = 'a';
