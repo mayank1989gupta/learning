@@ -12,10 +12,9 @@ import java.util.Arrays;
 public class CoinChange {
 
 	public static void main(String args[]) {
-		int i, j;
-		int arr[] = {1,2,3};
+		int arr[] = {1,2};
 		int m = arr.length;
-		int n = 4;
+		int n = 3;
 
 		System.out.println(countWays(arr, m, n));
 	}
@@ -38,6 +37,7 @@ public class CoinChange {
 				table[j] = table[j] + table[j - arr[i]];
 			}
 		}
+		
 
 		return table[n];
 		

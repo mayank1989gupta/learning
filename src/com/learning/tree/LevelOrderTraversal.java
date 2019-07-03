@@ -1,21 +1,19 @@
 /**
- * 
+ *
  */
 package com.learning.tree;
 
 /**
  * @author Mayank
- * 
+ *
  */
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.Scanner;
+import java.util.*;
 
 class Node {
     Node left;
     Node right;
     int data;
-    
+
     Node(int data) {
         this.data = data;
         left = null;
@@ -25,32 +23,33 @@ class Node {
 
 public class LevelOrderTraversal {
 
-	/* 
+    /*
     
     class Node 
-    	int data;
-    	Node left;
-    	Node right;
-	*/
-	//Solution
-	public static void levelOrder(Node root) {
-      
-      Queue<Node> queue = new LinkedList<>();
-      queue.add(root);
+        int data;
+        Node left;
+        Node right;
+    */
+    //Solution
+    public static void levelOrder(Node root) {
+        List<List<Integer>> result = new ArrayList<>();
+        Queue<Node> queue = new LinkedList<>();
+        queue.add(root);
 
-      while(!queue.isEmpty()) {
-          Node tempNode = queue.poll();
-          System.out.print(tempNode.data + " ");
+        while(!queue.isEmpty()) {
+            List<Integer> levelData = new ArrayList<>();
+            Node tempNode = queue.poll();
+            System.out.print(tempNode.data + " ");
+            levelData.add(tempNode.data);
 
-          if(null != tempNode.left) 
-              queue.add(tempNode.left);
-          
-          if(null != tempNode.right)
-            queue.add(tempNode.right);
-      }
+            if(null != tempNode.left) queue.add(tempNode.left);
+            if(null != tempNode.right) queue.add(tempNode.right);
+
+            result.add(levelData);
+        }
     }
 
-	public static Node insert(Node root, int data) {
+    public static Node insert(Node root, int data) {
         if(root == null) {
             return new Node(data);
         } else {
@@ -76,5 +75,5 @@ public class LevelOrderTraversal {
         }
         scan.close();
         levelOrder(root);
-    }	
+    }
 }

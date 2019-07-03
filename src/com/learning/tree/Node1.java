@@ -7,7 +7,7 @@ package com.learning.tree;
  * @author Mayank
  *
  */
-public class Node {
+public class Node1 {
 
 	private int data;
 	private Node right;
@@ -17,7 +17,7 @@ public class Node {
 	 * @param right
 	 * @param left
 	 */
-	public Node(int data) {
+	Node1(int data) {
 		super();
 		this.data = data;
 		this.right = null;
