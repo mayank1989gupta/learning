@@ -4,6 +4,7 @@
 package com.hackerank.algorithms;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
@@ -14,15 +15,9 @@ import java.util.List;
 public class Test3 {
 
 	public static void main(String args[]) {
-		List<Integer> data = new ArrayList<Integer>();;
-		data.add(5);
-		data.add(4);
-		data.add(3);
-		data.add(2);
-		data.add(1);
-		
-		Collections.sort(data, (a, b) -> a - b);
-		
-		data.stream().forEach(System.out::println);
+		int[] arr = {1,2,3,4,5,6,7,8};
+		int k = 3;
+
+		System.out.println(Arrays.stream(arr).sorted().skip(arr.length - k).findFirst().getAsInt());
 	}
 }
