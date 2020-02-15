@@ -2,12 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87057a24-3c41-443e-986d-6114c7ed8630" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/src/com/learning/tree/BinaryTreeHeightBalanced.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/test/glovo/CoefficientProblem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/hackerank/algorithms/Test3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hackerank/algorithms/Test3.java" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/src/com/learning/samplers/LonelyInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/learning/samplers/SmallestCommonNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Learning.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/learning/linkedlist/IntersectionPointLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/learning/linkedlist/IntersectionPointLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/learning/linkedlist/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/learning/linkedlist/LinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/learning/linkedlist/LinkedListInsertion.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/learning/linkedlist/LinkedListInsertion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/learning/observerdesignpattern/CricketData.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/learning/observerdesignpattern/CricketData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/learning/samplers/Ascending123.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/learning/samplers/Ascending123.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/learning/samplers/CharacterFind.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/learning/samplers/CharacterFind.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/learning/samplers/GFG.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/learning/samplers/GFG.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/learning/samplers/LeastValidTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/learning/samplers/LeastValidTime.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/learning/samplers/MigratoryBirds.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/learning/samplers/MigratoryBirds.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/learning/samplers/MilitaryTimeconverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/learning/samplers/MilitaryTimeconverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/learning/samplers/ParkingTicket.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/learning/samplers/ParkingTicket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/learning/samplers/RemoveRecurringDigits.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/learning/samplers/RemoveRecurringDigits.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/learning/samplers/ReversingWithoutVariable.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/learning/samplers/ReversingWithoutVariable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/learning/samplers/SockMerchant.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/learning/samplers/SockMerchant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/learning/singleton/SingletonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/learning/singleton/SingletonTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/learning/samplers/SumPairHashing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/learning/samplers/SumPairHashing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/learning/samplers/VaadinCodilitySmallestCommonNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/learning/samplers/VaadinCodilitySmallestCommonNumber.java" afterDir="false" />
+>>>>>>> 7b8bbdf3e57aeec296d36bfc2fdfe51002d3b26b
     </list>
-    <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +41,7 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
@@ -118,6 +143,8 @@
       </file>
     </leaf>
   </component>
+=======
+>>>>>>> 7b8bbdf3e57aeec296d36bfc2fdfe51002d3b26b
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -129,6 +156,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -240,14 +268,28 @@
       <pane id="Scope" />
     </panes>
   </component>
+=======
+  <component name="ProjectId" id="1Ty5VpGTgva5MsVpWV0AiNHfkyR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+>>>>>>> 7b8bbdf3e57aeec296d36bfc2fdfe51002d3b26b
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545775566673" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
+<<<<<<< HEAD
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+=======
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+>>>>>>> 7b8bbdf3e57aeec296d36bfc2fdfe51002d3b26b
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.learning.samplers" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -261,9 +303,15 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Application.CoefficientProblem">
     <configuration name="ClimbingStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learning.dp.samples.ClimbingStairs" />
+=======
+  <component name="RunManager" selected="Application.VaadinCodilitySmallestCommonNumber">
+    <configuration name="BalancingBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learning.tree.BalancingBST" />
+>>>>>>> 7b8bbdf3e57aeec296d36bfc2fdfe51002d3b26b
       <module name="Learning" />
       <extension name="coverage">
         <pattern>
@@ -288,8 +336,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="DistinctCountries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.test.glovo.DistinctCountries" />
+=======
+    <configuration name="SumPairHashing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learning.samplers.SumPairHashing" />
+>>>>>>> 7b8bbdf3e57aeec296d36bfc2fdfe51002d3b26b
       <module name="Learning" />
       <extension name="coverage">
         <pattern>
@@ -301,8 +354,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="FindinDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hackerank.algorithms.FindinDuplicate" />
+=======
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learning.samplers.Test" />
+>>>>>>> 7b8bbdf3e57aeec296d36bfc2fdfe51002d3b26b
       <module name="Learning" />
       <extension name="coverage">
         <pattern>
@@ -314,8 +372,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="LocalDatePasswordExpiration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.supplier.consumer.sample.LocalDatePasswordExpiration" />
+=======
+    <configuration name="VaadinCodilitySmallestCommonNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learning.samplers.VaadinCodilitySmallestCommonNumber" />
+>>>>>>> 7b8bbdf3e57aeec296d36bfc2fdfe51002d3b26b
       <module name="Learning" />
       <extension name="coverage">
         <pattern>
@@ -329,13 +392,24 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Application.CoefficientProblem" />
         <item itemvalue="Application.DistinctCountries" />
         <item itemvalue="Application.ClimbingStairs" />
         <item itemvalue="Application.LocalDatePasswordExpiration" />
         <item itemvalue="Application.FindinDuplicate" />
+=======
+        <item itemvalue="Application.VaadinCodilitySmallestCommonNumber" />
+        <item itemvalue="Application.SumPairHashing" />
+        <item itemvalue="Application.BalancingBST" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.GenerateParenthesis" />
+>>>>>>> 7b8bbdf3e57aeec296d36bfc2fdfe51002d3b26b
       </list>
     </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -347,6 +421,7 @@
     </task>
     <servers />
   </component>
+<<<<<<< HEAD
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="726" extended-state="0" />
     <editor active="true" />
@@ -379,6 +454,18 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+=======
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+>>>>>>> 7b8bbdf3e57aeec296d36bfc2fdfe51002d3b26b
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LAST_COMMIT_MESSAGE" value="" />
@@ -389,7 +476,6 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/learning/samplers/Test.java</url>
           <line>16</line>
-          <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -401,6 +487,7 @@
       </breakpoints>
     </breakpoint-manager>
   </component>
+<<<<<<< HEAD
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/bin/com/learning/dp/samples/CoinChange.class" />
     <entry file="file://$PROJECT_DIR$/src/com/learning/observerdesignpattern/Subject.java">
@@ -836,4 +923,6 @@
       </state>
     </states>
   </component>
+=======
+>>>>>>> 7b8bbdf3e57aeec296d36bfc2fdfe51002d3b26b
 </project>

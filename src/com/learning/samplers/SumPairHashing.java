@@ -28,16 +28,12 @@ public class SumPairHashing {
 	 * @param sum
 	 */
 	private static void findSumPairs(int[] data, int sum) {
-		Set<Integer> tempData = new HashSet<Integer>();
+		Set<Integer> tempData = new HashSet<>();
 		int temp = 0;
 
 		for(int value : data) {
 			temp = sum - value;
-
-			if(tempData.contains(temp)) {
-				System.out.println("Pair found: " + temp + " &, " + value);
-			}
-
+			if(tempData.contains(temp)) System.out.println("Pair found: " + temp + " &, " + value);
 			tempData.add(value);
 		}
 	}
