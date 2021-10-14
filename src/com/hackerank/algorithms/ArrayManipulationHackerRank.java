@@ -30,6 +30,7 @@ public class ArrayManipulationHackerRank {
 
 		int startIndex;
 		int endIndex;
+		int check = 1;
 		int tee1 = 0;
 		int temp = 0;
 		int max = 0;
