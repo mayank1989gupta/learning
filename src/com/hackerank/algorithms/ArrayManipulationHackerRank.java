@@ -30,9 +30,12 @@ public class ArrayManipulationHackerRank {
 
 		int startIndex;
 		int endIndex;
+		int check = 1;
+		int tee1 = 0;
 		int temp = 0;
 		int max = 0;
 		for(int i = 0 ; i < queries.length; i++) {
+			tee1++;
 			startIndex = (queries[i][0]) - 1;//Starting Index
 			endIndex = (queries[i][1]) - 1;//End Index
 			temp = (queries[i][2]);//value to be added
@@ -45,6 +48,7 @@ public class ArrayManipulationHackerRank {
 			}
 		}
 
+		System.out.println(tee1);
 
 		return max;//Result
 	}
