@@ -30,6 +30,7 @@ public class ArrayManipulationHackerRank {
 
 		int startIndex;
 		int endIndex;
+		int tee = 0;
 		int temp = 0;
 		int max = 0;
 		for(int i = 0 ; i < queries.length; i++) {
